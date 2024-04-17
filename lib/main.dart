@@ -28,7 +28,6 @@ class _ImageCarouselState extends State<ImageCarousel> {
     'assets/images/avatar3.png',
     'assets/images/avatar4.png',
     'assets/images/avatar5.png',
-    // Add more image URLs as needed
   ];
 
   void _previousImage() {
@@ -73,7 +72,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
                   color: Color(0xFFA4D8FF),
                 ),
                 child: FittedBox(
-                  fit: BoxFit.contain, // Làm cho con của nó vừa với không gian
+                  fit: BoxFit.contain,
                   child: IconButton(
                     icon: Icon(Icons.arrow_back_ios),
                     onPressed: _previousImage,
@@ -91,7 +90,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
                   color: Color(0xFFA4D8FF),
                 ),
                 child: FittedBox(
-                  fit: BoxFit.contain, // Làm cho con của nó vừa với không gian
+                  fit: BoxFit.contain,
                   child: IconButton(
                     icon: Icon(Icons.arrow_forward_ios),
                     onPressed: _nextImage,
